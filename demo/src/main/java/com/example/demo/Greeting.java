@@ -1,4 +1,4 @@
-package com.example.Entity;
+package com.example.demo;
 
 public class Greeting {
     private long id;
@@ -16,7 +16,7 @@ public class Greeting {
         return content;
     }
 
-    public void setContetn(String content) {
+    public void setContent(String content) {
         this.content = content;
     }
 }
